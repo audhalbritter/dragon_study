@@ -8,5 +8,5 @@ source("R/import_dragon_data.R")
 
 # Run model
 
-mod <- lm(body_size ~ body_length, data = dragon)
+mod <- lm(body_size ~ body_length * temperature, data = dragon)
 tidy(mod)
