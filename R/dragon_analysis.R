@@ -10,3 +10,6 @@ source("R/import_dragon_data.R")
 
 mod <- lm(body_size ~ body_length * temperature, data = dragon)
 tidy(mod)
+
+# Check model 
+plot(mod)
