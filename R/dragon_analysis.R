@@ -10,3 +10,5 @@ source("R/import_dragon_data.R")
 mod <- lm(body_size ~ body_length + var1, data = dragon)
 mod2
 tidy(mod)
+
+newmod
